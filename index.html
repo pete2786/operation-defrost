@@ -14,12 +14,14 @@
     <meta property="og:url" content="https://pete2786.github.io/operation-defrost/">
     <meta property="og:title" content="Operation Defrost - Contact Your Representatives">
     <meta property="og:description" content="Tool to contact your federal representatives about ICE operations in Minneapolis on January 7th. Find your reps, generate messages, and make your voice heard.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=630&fit=crop">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://pete2786.github.io/operation-defrost/">
     <meta property="twitter:title" content="Operation Defrost - Contact Your Representatives">
     <meta property="twitter:description" content="Tool to contact your federal representatives about ICE operations in Minneapolis on January 7th. Find your reps, generate messages, and make your voice heard.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=630&fit=crop">
     
     <!-- Additional Meta -->
     <meta name="keywords" content="contact representatives, ICE operations, Minneapolis, civic engagement, political action">
@@ -37,6 +39,12 @@
                 Make it easy to contact your representatives about ICE operations in Minneapolis. 
                 Defrost relationships across political divides through respectful, targeted communication.
             </p>
+
+            <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-4">
+                <p class="text-sm text-blue-900">
+                    <strong>Updated January 10th, 2025:</strong> Templates now reference upcoming budget debates in Congress. With federal budget discussions happening this month, now is the critical time to contact your representatives about enforcement funding and oversight.
+                </p>
+            </div>
 
             <div class="border-l-4 border-amber-500 bg-amber-50 p-4 mb-8">
                 <p class="text-sm text-amber-900">
@@ -135,9 +143,32 @@
             </div>
         </div>
 
-        <div class="text-center text-sm text-gray-600">
-            <p>Share this tool with friends across the political spectrum.</p>
-            <p class="mt-1">Together, we can defrost divisions and demand accountability.</p>
+        <div class="text-center text-sm text-gray-600 space-y-4">
+            <div>
+                <p class="font-semibold text-gray-800 mb-2">Share this tool:</p>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <button onclick="shareOnTwitter()" class="px-4 py-2 bg-blue-400 text-white rounded-lg hover:bg-blue-500 transition-colors flex items-center gap-2">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        Twitter
+                    </button>
+                    <button onclick="shareOnFacebook()" class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        Facebook
+                    </button>
+                    <button onclick="shareOnInstagram()" class="px-4 py-2 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 text-white rounded-lg hover:opacity-90 transition-opacity flex items-center gap-2">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        Instagram
+                    </button>
+                    <button onclick="copyLink()" class="px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors flex items-center gap-2">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+                        Copy Link
+                    </button>
+                </div>
+            </div>
+            <div>
+                <p>Share this tool with friends across the political spectrum.</p>
+                <p class="mt-1">Together, we can defrost divisions and demand accountability.</p>
+            </div>
         </div>
     </div>
 
@@ -151,6 +182,8 @@
 I am writing you today about the actions of our US Immigration and Customs Enforcement (ICE) in Minneapolis on January 7th. The shooting death of a person followed by a vehicle pursuit that ended in front of Roosevelt High School with students and staff present represents an unconscionable escalation that crossed a moral line.
 
 These reckless actions were unacceptable. We need you to push back on the DHS leadership and President Trump to cease these operations immediately. Our communities deserve safety and dignity, not fear and violence in front of our schools.
+
+With upcoming budget debates, now is the critical time to use your voice and vote to demand accountability and defund these dangerous enforcement practices. Please stand with your constituents and take action.
 
 Thank you for your leadership on this critical issue.
 
@@ -166,7 +199,7 @@ I am writing to you as a constituent deeply concerned about the ICE operations i
 
 Effective immigration enforcement must balance security with community trust and basic human dignity. The reckless decision to conduct a pursuit that ended at a school shows a lack of judgment that undermines both public safety and respect for our institutions.
 
-I respectfully ask that you use your position to call for an immediate review of these operations and push for protocols that prevent such incidents from happening again.
+I respectfully ask that you use your position to call for an immediate review of these operations and push for protocols that prevent such incidents from happening again. With upcoming budget debates, you have the opportunity to ensure funding is tied to proper oversight and community safety standards.
 
 Thank you for considering my concerns.
 
@@ -385,6 +418,41 @@ Sincerely,
         }
 
         console.log('Operation Defrost loaded. Debug mode enabled.');
+
+        // Social sharing functions
+        function shareOnTwitter() {
+            const text = "Contact your representatives about ICE operations in Minneapolis using Operation Defrost";
+            const url = "https://pete2786.github.io/operation-defrost/";
+            window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
+        }
+
+        function shareOnFacebook() {
+            const url = "https://pete2786.github.io/operation-defrost/";
+            window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+        }
+
+        function shareOnInstagram() {
+            const url = "https://pete2786.github.io/operation-defrost/";
+            const message = "Operation Defrost - Contact your representatives about ICE operations in Minneapolis\n\n" + url;
+            
+            // Copy to clipboard first
+            navigator.clipboard.writeText(message).then(() => {
+                alert('✅ Link and message copied to clipboard!\n\nTo share on Instagram:\n1. Open Instagram app\n2. Create a new Story\n3. Add text or a background\n4. Paste the link (it will auto-add a link sticker)\n5. Share!');
+            }).catch(() => {
+                alert('Instagram doesn\'t support direct web sharing.\n\nTo share:\n1. Copy this link: ' + url + '\n2. Open Instagram app\n3. Create a Story and paste the link');
+            });
+        }
+
+        async function copyLink() {
+            const url = "https://pete2786.github.io/operation-defrost/";
+            try {
+                await navigator.clipboard.writeText(url);
+                alert('Link copied to clipboard!');
+            } catch (err) {
+                console.error('Failed to copy link:', err);
+                alert('Failed to copy link. Please copy manually: ' + url);
+            }
+        }
     </script>
 </body>
 </html>

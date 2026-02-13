@@ -6,25 +6,25 @@
     <title>Operation Defrost - Contact Your Representatives</title>
 
     <!-- Primary Meta Tags -->
-    <meta name="title" content="Operation Defrost - Contact Your Representatives">
-    <meta name="description" content="Make it easy to contact your federal representatives about the issues that matter. Generate personalized messages and find your House Representative and Senators by ZIP code.">
+    <meta name="title" id="meta-title" content="Operation Defrost - Contact Your Representatives">
+    <meta name="description" id="meta-description" content="Civic engagement tool to contact your federal representatives about ICE accountability, digital privacy, Boundary Waters mining, and more. Generate personalized messages and find your reps by ZIP code.">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" id="meta-og-url" content="https://operationdefrost.app/">
     <meta property="og:title" id="meta-og-title" content="Operation Defrost - Contact Your Representatives">
-    <meta property="og:description" id="meta-og-description" content="Make it easy to contact your federal representatives about the issues that matter. Generate personalized messages and find your reps by ZIP code.">
+    <meta property="og:description" id="meta-og-description" content="Civic engagement tool to contact your federal representatives about ICE accountability, digital privacy, Boundary Waters mining, and more. Find your reps by ZIP code.">
     <meta property="og:image" id="meta-og-image" content="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=630&fit=crop">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" id="meta-tw-url" content="https://operationdefrost.app/">
     <meta property="twitter:title" id="meta-tw-title" content="Operation Defrost - Contact Your Representatives">
-    <meta property="twitter:description" id="meta-tw-description" content="Make it easy to contact your federal representatives about the issues that matter. Generate personalized messages and find your reps by ZIP code.">
+    <meta property="twitter:description" id="meta-tw-description" content="Civic engagement tool to contact your federal representatives about ICE accountability, digital privacy, Boundary Waters mining, and more. Find your reps by ZIP code.">
     <meta property="twitter:image" id="meta-tw-image" content="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=630&fit=crop">
 
     <!-- Additional Meta -->
-    <meta name="keywords" content="contact representatives, civic engagement, political action, email template">
+    <meta name="keywords" content="contact representatives, civic engagement, political action, email template, ICE accountability, digital privacy, GDPR, Boundary Waters, BWCA mining">
     <meta name="author" content="Operation Defrost">
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -122,12 +122,12 @@
         // ── Home View (Issue Selector) ─────────────────────────
         async function renderHomeView() {
             const app = document.getElementById('app');
-            document.getElementById('shareSection').classList.add('hidden');
+            document.getElementById('shareSection').classList.remove('hidden');
             document.getElementById('appSubtitle').textContent =
                 'Defrost relationships across political divides through respectful, targeted communication.';
             updateMeta({
                 ogTitle: 'Operation Defrost - Contact Your Representatives',
-                ogDescription: 'Make it easy to contact your federal representatives about the issues that matter.',
+                ogDescription: 'Civic engagement tool to contact your federal representatives about ICE accountability, digital privacy, Boundary Waters mining, and more.',
                 ogImage: 'https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=630&fit=crop'
             });
 
@@ -503,19 +503,32 @@
 
         // ── Dynamic Meta Tags ──────────────────────────────────
         function updateMeta(meta) {
-            document.title = meta.ogTitle || 'Operation Defrost - Contact Your Representatives';
+            const title = meta.ogTitle || 'Operation Defrost - Contact Your Representatives';
+            const description = meta.ogDescription || '';
+            const image = meta.ogImage || '';
             const url = window.location.href;
+
+            document.title = title;
+
             const setContent = (id, value) => {
                 const el = document.getElementById(id);
                 if (el) el.setAttribute('content', value);
             };
-            setContent('meta-og-title', meta.ogTitle || '');
-            setContent('meta-og-description', meta.ogDescription || '');
-            setContent('meta-og-image', meta.ogImage || '');
+
+            // Primary meta
+            setContent('meta-title', title);
+            setContent('meta-description', description);
+
+            // Open Graph
+            setContent('meta-og-title', title);
+            setContent('meta-og-description', description);
+            setContent('meta-og-image', image);
             setContent('meta-og-url', url);
-            setContent('meta-tw-title', meta.ogTitle || '');
-            setContent('meta-tw-description', meta.ogDescription || '');
-            setContent('meta-tw-image', meta.ogImage || '');
+
+            // Twitter
+            setContent('meta-tw-title', title);
+            setContent('meta-tw-description', description);
+            setContent('meta-tw-image', image);
             setContent('meta-tw-url', url);
         }
 

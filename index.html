@@ -132,7 +132,7 @@
             });
 
             try {
-                const resp = await fetch('data/issues.json');
+                const resp = await fetch('data/issues.json', { cache: 'no-store' });
                 const data = await resp.json();
                 const issues = data.issues.filter(i => i.status === 'active');
 
@@ -167,7 +167,7 @@
             const app = document.getElementById('app');
 
             try {
-                const resp = await fetch(`data/issues/${issueId}.json`);
+                const resp = await fetch(`data/issues/${issueId}.json`, { cache: 'no-store' });
                 if (!resp.ok) throw new Error('Issue not found');
                 currentIssue = await resp.json();
             } catch (err) {

@@ -56,12 +56,12 @@
       "templateFragment": "The metro surge caused lasting harm to Minneapolis communities — businesses disrupted, families traumatized, and trust destroyed. The federal government must make these communities whole."
     },
     {
-      "id": "school-pursuit",
-      "label": "Vehicle pursuit at Roosevelt High School",
+      "id": "children-impacted",
+      "label": "Children traumatized, especially in Columbia Heights",
       "category": "accountability",
-      "defaultSelected": false,
-      "contextText": "A vehicle pursuit ended in front of Roosevelt High School with approximately 15 students and staff present. Enforcement operations were conducted with reckless disregard for community safety.",
-      "templateFragment": "A vehicle pursuit ended in front of Roosevelt High School with students and staff present, demonstrating reckless disregard for community safety."
+      "defaultSelected": true,
+      "contextText": "Children across Minneapolis have been deeply impacted by the metro surge. Students in the Columbia Heights school district have been especially affected, with children afraid to go to school, families pulled apart, and kids left wondering if their parents will come home.",
+      "templateFragment": "Children across Minneapolis have been deeply impacted by ICE operations. Students in the Columbia Heights school district have been especially affected — children afraid to go to school, families pulled apart, and kids left wondering if their parents will come home. No enforcement policy is worth traumatizing children."
     }
   ],
   "tones": [

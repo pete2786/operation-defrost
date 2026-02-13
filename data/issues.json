@@ -7,6 +7,14 @@
       "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=600&h=400&fit=crop",
       "date": "2025-01-25",
       "status": "active"
+    },
+    {
+      "id": "digital-privacy-2025",
+      "title": "Digital Privacy & Government Surveillance",
+      "summary": "Federal agents are tracking phones, photographing faces, and revoking travel privileges. Demand GDPR-style protections.",
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f2?w=600&h=400&fit=crop",
+      "date": "2025-02-13",
+      "status": "active"
     }
   ]
 }

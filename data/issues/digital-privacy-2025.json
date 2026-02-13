@@ -1,0 +1,101 @@
+{
+  "id": "digital-privacy-2025",
+  "title": "Digital Privacy & Government Surveillance",
+  "subtitle": "Demand GDPR-style privacy protections for Americans",
+  "urgentBanner": null,
+  "contentBlocks": [
+    {
+      "id": "phone-tracking",
+      "label": "iPhone digital signature tracking",
+      "category": "surveillance",
+      "defaultSelected": true,
+      "contextText": "Reporting out of Minnesota confirms that ICE agents are accessing tools that identify iPhone digital signatures at one location and then harassing the owners of those phones at their homes or workplaces at a later time.",
+      "templateFragment": "Recent reporting out of Minnesota has confirmed that ICE agents are accessing tools that identify iPhone digital signatures at one location and then harassing the owners of those phones at their homes or workplaces at a later time."
+    },
+    {
+      "id": "facial-recognition",
+      "label": "Facial recognition & biometric databases",
+      "category": "surveillance",
+      "defaultSelected": true,
+      "contextText": "Multiple photos and witness statements confirm that ICE agents are photographing citizens' faces and entering that biometric data into databases without consent or oversight.",
+      "templateFragment": "Other reporting includes many photos and witness statements that ICE agents are taking pictures of citizens' faces and entering that biometric data into databases."
+    },
+    {
+      "id": "global-entry",
+      "label": "Global Entry retaliation for proximity to agents",
+      "category": "surveillance",
+      "defaultSelected": true,
+      "contextText": "Citizens have had their Global Entry status revoked simply for standing on a corner near federal agents, turning everyday public spaces into zones of surveillance risk.",
+      "templateFragment": "The simple act of standing on a corner near federal agents can now result in a person losing their Global Entry status."
+    },
+    {
+      "id": "ai-tools-risk",
+      "label": "AI tools being turned against citizens",
+      "category": "context",
+      "defaultSelected": false,
+      "contextText": "Devices like iPhones, software like Google Maps, and AI tools that help us work more productively must not be weaponized against the people who rely on them. Without protections, the same technologies that improve our lives become tools of mass surveillance.",
+      "templateFragment": "Devices like iPhones, software like Google Maps, and the awe-inspiring new AI tools that can listen to our meetings and help us extract insights at work — these things must not be turned against us."
+    },
+    {
+      "id": "ai-race",
+      "label": "U.S. falling behind in AI without privacy protections",
+      "category": "context",
+      "defaultSelected": false,
+      "contextText": "Without data privacy protections, Americans will lose trust in the technologies driving our economy forward, and other countries with stronger privacy frameworks will win the global AI race.",
+      "templateFragment": "Without these protections, Americans will be harmed and other countries will win the AI race."
+    }
+  ],
+  "tones": [
+    {
+      "id": "civil-liberties",
+      "label": "Civil Liberties",
+      "description": "Constitutional rights, freedom, American values",
+      "color": "blue",
+      "subject": "Protect Americans' Digital Privacy - Pass GDPR-Style Legislation Now",
+      "intro": "I am writing to express my deep concern about the lack of privacy protections for Americans in the digital age. Recent news stories describe databases, apps, and sophisticated tracking software being used against American citizens by federal government forces.\n\n{selected_blocks}\n\nThese and other similar current events are terrifyingly contradictory to the America that has stood as a beacon of freedom for my entire lifetime. Americans, like our European Union counterparts, expect, deserve, and demand that our data is not being used by malicious actors.\n\nPlease join with your colleagues in the House and Senate to draft and pass legislation similar to the GDPR regulations in the EU. I urge you to champion:",
+      "asks": [
+        "Comprehensive federal data privacy legislation modeled on the EU's GDPR",
+        "Strict limits on government use of commercial surveillance tools against citizens",
+        "A ban on warrantless collection of biometric data by federal agencies",
+        "Transparency requirements for any government access to personal digital data"
+      ],
+      "closing": "The right to privacy is fundamental to a free society. Our government should be protecting that right, not eroding it.\n\nThank you for defending the freedoms that define us as Americans."
+    },
+    {
+      "id": "economic",
+      "label": "Economic / Pro-Tech",
+      "description": "AI competitiveness, business impact, innovation",
+      "color": "green",
+      "subject": "Data Privacy Legislation Is Critical to U.S. AI Leadership",
+      "intro": "I am writing about the urgent need for federal data privacy legislation. Americans expect access to advanced technologies that make our lives easier while trusting that our data is not being weaponized.\n\n{selected_blocks}\n\nThis is not just a civil liberties issue — it is an economic competitiveness issue. The EU has GDPR. Without equivalent protections, American consumers will lose trust in the digital tools driving our economy, and U.S. companies will be at a disadvantage globally.\n\nI ask you to prioritize legislation that would:",
+      "asks": [
+        "Establish GDPR-equivalent data privacy protections for American consumers",
+        "Ensure the U.S. remains competitive in the global AI race by building consumer trust",
+        "Prevent government misuse of commercial tech platforms and surveillance tools",
+        "Create clear rules that let businesses innovate while protecting user data"
+      ],
+      "closing": "Strong privacy protections are not anti-business — they are the foundation of the trust that innovation requires. Not only is this the correct thing to do, but it will ensure that the U.S. economy and your constituents can continue to benefit from the explosion of AI on the horizon.\n\nThank you for your attention to this critical economic and security issue."
+    },
+    {
+      "id": "limited-govt",
+      "label": "Limited Government",
+      "description": "Government overreach, individual liberty",
+      "color": "red",
+      "subject": "Rein In Government Surveillance - Protect Citizens' Digital Rights",
+      "intro": "I am writing about government overreach in digital surveillance. Regardless of one's views on immigration enforcement, every American should be alarmed by the tools now being deployed against citizens without meaningful oversight or accountability.\n\n{selected_blocks}\n\nThis is exactly the kind of unchecked government power that our founders warned against. Federal agencies should not have unfettered access to commercial surveillance tools to track, identify, and retaliate against law-abiding citizens.\n\nI urge you to support legislation that would:",
+      "asks": [
+        "Require warrants for government access to citizens' digital data and biometric information",
+        "Prohibit federal agencies from purchasing commercial surveillance data to circumvent the Fourth Amendment",
+        "Pass comprehensive data privacy legislation that limits both government and corporate overreach",
+        "Establish oversight mechanisms with real enforcement teeth"
+      ],
+      "closing": "A government that can track your phone, photograph your face, and revoke your travel privileges for standing on a public sidewalk has too much power. This is not a partisan issue — it is an American issue.\n\nThank you for standing up for individual liberty."
+    }
+  ],
+  "meta": {
+    "ogTitle": "Operation Defrost - Digital Privacy & Government Surveillance",
+    "ogDescription": "Demand GDPR-style privacy protections for Americans. Contact your representatives about government surveillance and digital rights.",
+    "ogImage": "https://images.unsplash.com/photo-1563986768609-322da13575f2?w=1200&h=630&fit=crop",
+    "shareText": "Americans need GDPR-style privacy protections. Contact your representatives using Operation Defrost"
+  }
+}

@@ -3,153 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Operation Defrost - Contact Your Representatives About ICE Operations</title>
-    
+    <title>Operation Defrost - Contact Your Representatives</title>
+
     <!-- Primary Meta Tags -->
     <meta name="title" content="Operation Defrost - Contact Your Representatives">
-    <meta name="description" content="Make it easy to contact your federal representatives about ICE operations in Minneapolis. Generate personalized messages and find your House Representative and Senators by ZIP code.">
-    
+    <meta name="description" content="Make it easy to contact your federal representatives about the issues that matter. Generate personalized messages and find your House Representative and Senators by ZIP code.">
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://pete2786.github.io/operation-defrost/">
-    <meta property="og:title" content="Operation Defrost - Contact Your Representatives">
-    <meta property="og:description" content="Tool to contact your federal representatives about ICE operations in Minneapolis on January 7th. Find your reps, generate messages, and make your voice heard.">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=630&fit=crop">
-    
+    <meta property="og:url" id="meta-og-url" content="https://operationdefrost.app/">
+    <meta property="og:title" id="meta-og-title" content="Operation Defrost - Contact Your Representatives">
+    <meta property="og:description" id="meta-og-description" content="Make it easy to contact your federal representatives about the issues that matter. Generate personalized messages and find your reps by ZIP code.">
+    <meta property="og:image" id="meta-og-image" content="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=630&fit=crop">
+
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://pete2786.github.io/operation-defrost/">
-    <meta property="twitter:title" content="Operation Defrost - Contact Your Representatives">
-    <meta property="twitter:description" content="Tool to contact your federal representatives about ICE operations in Minneapolis on January 7th. Find your reps, generate messages, and make your voice heard.">
-    <meta property="twitter:image" content="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=630&fit=crop">
-    
+    <meta property="twitter:url" id="meta-tw-url" content="https://operationdefrost.app/">
+    <meta property="twitter:title" id="meta-tw-title" content="Operation Defrost - Contact Your Representatives">
+    <meta property="twitter:description" id="meta-tw-description" content="Make it easy to contact your federal representatives about the issues that matter. Generate personalized messages and find your reps by ZIP code.">
+    <meta property="twitter:image" id="meta-tw-image" content="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=630&fit=crop">
+
     <!-- Additional Meta -->
-    <meta name="keywords" content="contact representatives, ICE operations, Minneapolis, civic engagement, political action">
+    <meta name="keywords" content="contact representatives, civic engagement, political action, email template">
     <meta name="author" content="Operation Defrost">
-    
+
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4 sm:p-8">
     <div class="max-w-4xl mx-auto">
+        <!-- Header -->
         <div class="bg-white rounded-lg shadow-xl p-6 sm:p-8 mb-6">
-            <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">
-                Operation Defrost ❄️→💧
-            </h1>
-            <p class="text-gray-600 mb-6">
-                Make it easy to contact your representatives about ICE operations in Minneapolis. 
+            <div class="flex items-center justify-between mb-2">
+                <a href="#/" class="text-3xl sm:text-4xl font-bold text-gray-900 hover:text-blue-700 transition-colors no-underline">
+                    Operation Defrost
+                </a>
+                <span class="text-2xl sm:text-3xl">❄️&#8594;💧</span>
+            </div>
+            <p id="appSubtitle" class="text-gray-600 mb-6">
                 Defrost relationships across political divides through respectful, targeted communication.
             </p>
 
-            <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-4">
-                <p class="text-sm text-blue-900">
-                    <strong>URGENT - Updated January 25th, 2025:</strong> The Senate is voting on a government funding package that requires 60 votes to pass. Key Democrats have pledged to vote against DHS funding unless restrictions are placed on immigration enforcement operations. <strong>Contact your Senators NOW</strong> - they have the power to demand accountability through the budget process. A government shutdown looms if no action is taken by next Friday.
-                </p>
-            </div>
-
-            <div class="border-l-4 border-amber-500 bg-amber-50 p-4 mb-8">
-                <p class="text-sm text-amber-900 mb-2">
-                    <strong>Context:</strong> On January 7th, 2025, ICE agent Jonathan Ross shot and killed Renee Macklin Good in Minneapolis. Hours later, a vehicle pursuit ended in front of Roosevelt High School with approximately 15 students and staff present, resulting in arrests.
-                </p>
-                <p class="text-sm text-amber-900 mb-2">
-                    <strong>Update January 25th:</strong> A federal agent shot and killed Alex Pretti, a 37-year-old ICU nurse, in Minneapolis' Whittier neighborhood. This is the second fatal shooting by federal agents in Minnesota in less than three weeks.
-                </p>
-                <p class="text-sm text-amber-900">
-                    Thousands of Minnesotans have peacefully protested these actions, with over 100 organizations calling for accountability. Despite peaceful protests, federal officials have falsely characterized these gatherings as riots.
-                </p>
-            </div>
-
-            <div class="space-y-8">
-                <!-- Step 1: Choose Tone -->
-                <div>
-                    <h2 class="text-xl font-semibold text-gray-800 mb-4">Step 1: Choose Your Email Tone</h2>
-                    <div class="grid gap-4 sm:grid-cols-3">
-                        <button onclick="selectTone('democrat')" id="btn-democrat"
-                            class="p-4 rounded-lg border-2 border-gray-200 hover:border-blue-300 transition-all">
-                            <h3 class="font-semibold text-gray-900 mb-1">Democrat Rep</h3>
-                            <p class="text-sm text-gray-600">Strong support, moral urgency</p>
-                        </button>
-
-                        <button onclick="selectTone('moderate')" id="btn-moderate"
-                            class="p-4 rounded-lg border-2 border-gray-200 hover:border-purple-300 transition-all">
-                            <h3 class="font-semibold text-gray-900 mb-1">Moderate Republican</h3>
-                            <p class="text-sm text-gray-600">Balanced, focus on judgment</p>
-                        </button>
-
-                        <button onclick="selectTone('farRight')" id="btn-farRight"
-                            class="p-4 rounded-lg border-2 border-gray-200 hover:border-red-300 transition-all">
-                            <h3 class="font-semibold text-gray-900 mb-1">Far Right Rep</h3>
-                            <p class="text-sm text-gray-600">Emphasis on protocols, stability</p>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Step 2: Find Rep -->
-                <div>
-                    <h2 class="text-xl font-semibold text-gray-800 mb-4">Step 2: Find Your Representatives</h2>
-
-                    <div class="flex gap-2">
-                        <input type="text" id="zipInput" placeholder="Enter your ZIP code (e.g., 55417)"
-                            class="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                            onkeypress="if(event.key === 'Enter') lookupRep()">
-                        <button onclick="lookupRep()" id="lookupBtn"
-                            class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-400 transition-colors">
-                            Find Reps
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Rep Info Display -->
-                <div id="repInfoContainer" class="hidden">
-                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Your Representatives</h3>
-                    <p class="text-sm text-gray-600 mb-4">
-                        📝 <strong>Note:</strong> You cannot email representatives directly. You must use their official contact form on their website. Click a representative below to generate a personalized message, then click "Contact via Website" to submit it through their form.
-                    </p>
-                    <div id="repsGrid" class="grid gap-4 sm:grid-cols-3"></div>
-                </div>
-
-                <!-- Email Template -->
-                <div id="templateContainer" class="hidden bg-green-50 border border-green-200 rounded-lg p-6">
-                    <div class="flex justify-between items-start mb-3">
-                        <h3 class="text-lg font-semibold text-gray-900">Your Email Template</h3>
-                        <button onclick="copyTemplate()" id="copyBtn"
-                            class="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">
-                            📋 Copy Template
-                        </button>
-                    </div>
-
-                    <!-- Name and Address Fields -->
-                    <div class="mb-4 space-y-3">
-                        <div>
-                            <label class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
-                            <input type="text" id="userName" placeholder="John Smith"
-                                onkeyup="updateTemplate()"
-                                class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent">
-                        </div>
-                        <div>
-                            <label class="block text-sm font-medium text-gray-700 mb-1">Your Address</label>
-                            <input type="text" id="userAddress" placeholder="123 Main St, Minneapolis, MN 55401"
-                                onkeyup="updateTemplate()"
-                                class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent">
-                        </div>
-                    </div>
-                    
-                    <div class="mb-3">
-                        <p class="text-sm font-medium text-gray-700 mb-1">Subject:</p>
-                        <p id="emailSubject" class="text-sm bg-white p-2 rounded border border-gray-300"></p>
-                    </div>
-
-                    <div>
-                        <p class="text-sm font-medium text-gray-700 mb-1">Body:</p>
-                        <pre id="emailBody" class="text-sm bg-white p-4 rounded border border-gray-300 whitespace-pre-wrap font-sans"></pre>
-                    </div>
-
-                    <p class="text-xs text-gray-600 mt-4" id="templateNote"></p>
-                </div>
-            </div>
+            <!-- Main Content Area (router renders here) -->
+            <div id="app"></div>
         </div>
 
+        <!-- Footer -->
         <div class="text-center text-sm text-gray-600 space-y-4">
-            <div>
+            <div id="shareSection" class="hidden">
                 <p class="font-semibold text-gray-800 mb-2">Share this tool:</p>
                 <div class="flex flex-wrap justify-center gap-3">
                     <button onclick="shareOnTwitter()" class="px-4 py-2 bg-blue-400 text-white rounded-lg hover:bg-blue-500 transition-colors flex items-center gap-2">
@@ -183,121 +83,329 @@
     </div>
 
     <script>
-        // Email Templates
-        const EmailTemplates = {
-            democrat: {
-                subject: "URGENT: Vote NO on DHS Funding - Demand Accountability for Minnesota Deaths",
-                body: `Dear [Representative Name],
-
-I am writing you today about the fatal shootings by federal agents in Minneapolis. On January 7th, ICE agent Jonathan Ross shot and killed Renee Macklin Good. On January 25th, a federal agent shot and killed Alex Pretti, a 37-year-old ICU nurse. Two lives lost to federal enforcement in less than three weeks is unconscionable.
-
-Meanwhile, thousands of Minnesotans have peacefully protested these actions, yet federal officials falsely characterize these gatherings as riots. A vehicle pursuit even ended in front of Roosevelt High School with students and staff present.
-
-The Senate is voting on a government funding package RIGHT NOW. I urge you to vote NO on DHS funding unless strict restrictions are placed on these dangerous enforcement operations. Join your Democratic colleagues who have pledged to block this funding without accountability measures.
-
-Use your power in the budget process to demand:
-- Immediate cessation of these operations
-- Prosecution of the agents responsible for these deaths
-- Congressional investigation into DHS enforcement practices
-
-Our communities deserve safety and dignity, not fear and violence.
-
-Thank you for your leadership on this critical issue.
-
-Sincerely,
-[Your Name]
-[Your Address]`
-            },
-            moderate: {
-                subject: "Vote Against DHS Funding Without Enforcement Restrictions",
-                body: `Dear [Representative Name],
-
-I am writing to you as a constituent deeply concerned about federal enforcement operations in Minneapolis. Regardless of one's views on immigration policy, I believe we can agree that recent events represent a serious breakdown in operational judgment.
-
-On January 7th, an ICE agent shot and killed Renee Macklin Good. On January 25th, a federal agent shot and killed Alex Pretti, a 37-year-old ICU nurse. Two fatal shootings in less than three weeks, along with a vehicle pursuit that ended in front of Roosevelt High School with students present, show a pattern of reckless decision-making.
-
-Meanwhile, thousands of Minnesotans have peacefully protested these actions, yet federal officials have falsely characterized these gatherings as riots.
-
-The Senate is currently voting on a government funding package. I respectfully urge you to support your colleagues who are demanding restrictions on enforcement operations before approving DHS funding. This is not about blocking immigration enforcement—it's about ensuring it's conducted safely and with proper oversight.
-
-You have a concrete opportunity right now to:
-- Demand operational review and new protocols
-- Tie funding to community safety standards
-- Require transparency and accountability
-
-Effective enforcement must balance security with community trust and basic human dignity.
-
-Thank you for considering my concerns.
-
-Respectfully,
-[Your Name]
-[Your Address]`
-            },
-            farRight: {
-                subject: "Request DHS Funding Restrictions to Ensure Operational Standards",
-                body: `Dear [Representative Name],
-
-I am writing regarding federal enforcement operations in Minneapolis. While I understand the importance of immigration enforcement, recent events merit serious review of operational protocols.
-
-Two fatal shootings by federal agents in less than three weeks—Renee Macklin Good on January 7th and ICU nurse Alex Pretti on January 25th—along with a vehicle pursuit that ended at Roosevelt High School with students present, raise questions about operational judgment and use of force standards.
-
-Thousands of Minnesotans have peacefully exercised their First Amendment rights to protest these actions, yet federal officials have mischaracterized these peaceful gatherings as riots. This rhetoric undermines public trust.
-
-The Senate is voting on a government funding package. I ask that you support efforts to ensure DHS funding includes clear operational restrictions. This is about maintaining professional standards and community stability, not blocking enforcement.
-
-Strong enforcement requires:
-- Clear protocols that protect both officers and community members
-- Proper use of force standards
-- Transparency and accountability mechanisms
-- Operations that don't escalate near schools or in ways that create unnecessary conflict
-
-Effective enforcement achieves its goals while maintaining public trust and order.
-
-Thank you for your attention to this matter.
-
-Sincerely,
-[Your Name]
-[Your Address]`
-            }
-        };
-
-        // State
-        let selectedTone = '';
+        // ── State ──────────────────────────────────────────────
+        let currentIssue = null;
+        let selectedTone = null;
+        let selectedBlocks = {};
         let allReps = [];
         let selectedRep = null;
 
-        // Functions
-        function selectTone(tone) {
-            console.log('Selecting tone:', tone);
-            selectedTone = tone;
-            
-            // Update button styles
-            ['democrat', 'moderate', 'farRight'].forEach(t => {
-                const btn = document.getElementById(`btn-${t}`);
-                if (t === tone) {
-                    btn.className = 'p-4 rounded-lg border-2 transition-all border-blue-500 bg-blue-50 shadow-md';
+        // ── Router ─────────────────────────────────────────────
+        function getRoute() {
+            const hash = window.location.hash || '#/';
+            if (hash.startsWith('#/issue/')) {
+                return { view: 'issue', id: hash.slice(8) };
+            }
+            return { view: 'home' };
+        }
+
+        async function navigate() {
+            const route = getRoute();
+            const app = document.getElementById('app');
+
+            // Reset issue-specific state on navigation
+            selectedTone = null;
+            allReps = [];
+            selectedRep = null;
+            currentIssue = null;
+
+            if (route.view === 'issue') {
+                app.innerHTML = '<p class="text-gray-500">Loading issue...</p>';
+                await renderIssueView(route.id);
+            } else {
+                await renderHomeView();
+            }
+        }
+
+        window.addEventListener('hashchange', navigate);
+
+        // ── Home View (Issue Selector) ─────────────────────────
+        async function renderHomeView() {
+            const app = document.getElementById('app');
+            document.getElementById('shareSection').classList.add('hidden');
+            document.getElementById('appSubtitle').textContent =
+                'Defrost relationships across political divides through respectful, targeted communication.';
+            updateMeta({
+                ogTitle: 'Operation Defrost - Contact Your Representatives',
+                ogDescription: 'Make it easy to contact your federal representatives about the issues that matter.',
+                ogImage: 'https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=630&fit=crop'
+            });
+
+            try {
+                const resp = await fetch('data/issues.json');
+                const data = await resp.json();
+                const issues = data.issues.filter(i => i.status === 'active');
+
+                if (issues.length === 0) {
+                    app.innerHTML = '<p class="text-gray-500">No active issues at this time. Check back soon.</p>';
+                    return;
+                }
+
+                app.innerHTML = `
+                    <h2 class="text-xl font-semibold text-gray-800 mb-4">Choose an Issue</h2>
+                    <div class="grid gap-4 sm:grid-cols-2">
+                        ${issues.map(issue => `
+                            <a href="#/issue/${issue.id}" class="block rounded-lg border-2 border-gray-200 hover:border-blue-300 hover:shadow-md transition-all overflow-hidden no-underline">
+                                <img src="${issue.image}" alt="" class="w-full h-40 object-cover">
+                                <div class="p-4">
+                                    <h3 class="font-semibold text-gray-900 mb-1">${issue.title}</h3>
+                                    <p class="text-sm text-gray-600 mb-2">${issue.summary}</p>
+                                    <p class="text-xs text-gray-400">Updated ${issue.date}</p>
+                                </div>
+                            </a>
+                        `).join('')}
+                    </div>
+                `;
+            } catch (err) {
+                console.error('Failed to load issues:', err);
+                app.innerHTML = '<p class="text-red-600">Failed to load issues. Please try refreshing the page.</p>';
+            }
+        }
+
+        // ── Issue View ─────────────────────────────────────────
+        async function renderIssueView(issueId) {
+            const app = document.getElementById('app');
+
+            try {
+                const resp = await fetch(`data/issues/${issueId}.json`);
+                if (!resp.ok) throw new Error('Issue not found');
+                currentIssue = await resp.json();
+            } catch (err) {
+                console.error('Failed to load issue:', err);
+                app.innerHTML = `
+                    <p class="text-red-600 mb-4">Issue not found.</p>
+                    <a href="#/" class="text-blue-600 hover:underline">&larr; Back to all issues</a>
+                `;
+                return;
+            }
+
+            // Initialize selected blocks from defaults
+            selectedBlocks = {};
+            currentIssue.contentBlocks.forEach(block => {
+                selectedBlocks[block.id] = block.defaultSelected;
+            });
+
+            // Update subtitle and meta
+            document.getElementById('appSubtitle').textContent = currentIssue.subtitle;
+            document.getElementById('shareSection').classList.remove('hidden');
+            if (currentIssue.meta) updateMeta(currentIssue.meta);
+
+            // Group content blocks by category
+            const blocksByCategory = {};
+            currentIssue.contentBlocks.forEach(block => {
+                if (!blocksByCategory[block.category]) blocksByCategory[block.category] = [];
+                blocksByCategory[block.category].push(block);
+            });
+
+            const categoryLabels = { incident: 'Incidents', context: 'Context', action: 'Actions' };
+
+            app.innerHTML = `
+                <a href="#/" class="text-sm text-blue-600 hover:underline mb-4 inline-block">&larr; All Issues</a>
+
+                ${currentIssue.urgentBanner ? `
+                <div class="bg-blue-50 border-l-4 border-blue-500 p-4 mb-4">
+                    <p class="text-sm text-blue-900">
+                        <strong>URGENT - Updated ${currentIssue.urgentBanner.date}:</strong> ${currentIssue.urgentBanner.text}
+                    </p>
+                </div>
+                ` : ''}
+
+                <div class="space-y-8">
+                    <!-- Step 1: Choose Content -->
+                    <div>
+                        <h2 class="text-xl font-semibold text-gray-800 mb-2">Step 1: Choose What to Include</h2>
+                        <p class="text-sm text-gray-600 mb-4">Select the points you want to include in your message. Toggle items on or off to customize your email.</p>
+                        <div class="space-y-4" id="contentBlocks">
+                            ${Object.entries(blocksByCategory).map(([category, blocks]) => `
+                                <div>
+                                    <h3 class="text-sm font-semibold text-gray-700 mb-2 uppercase tracking-wide">${categoryLabels[category] || category}</h3>
+                                    <div class="space-y-2">
+                                        ${blocks.map(block => `
+                                            <label class="flex items-start gap-3 p-3 rounded-lg border border-gray-200 hover:bg-gray-50 cursor-pointer transition-colors">
+                                                <input type="checkbox" ${block.defaultSelected ? 'checked' : ''}
+                                                    onchange="toggleBlock('${block.id}', this.checked)"
+                                                    class="mt-1 h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+                                                <div>
+                                                    <span class="font-medium text-gray-800 text-sm">${block.label}</span>
+                                                    <p class="text-xs text-gray-500 mt-1">${block.contextText}</p>
+                                                </div>
+                                            </label>
+                                        `).join('')}
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Choose Tone -->
+                    <div>
+                        <h2 class="text-xl font-semibold text-gray-800 mb-4">Step 2: Choose Your Email Tone</h2>
+                        <div class="grid gap-4 sm:grid-cols-${Math.min(currentIssue.tones.length, 3)}">
+                            ${currentIssue.tones.map(tone => `
+                                <button onclick="selectTone('${tone.id}')" id="btn-${tone.id}"
+                                    class="p-4 rounded-lg border-2 border-gray-200 hover:border-${tone.color}-300 transition-all text-left">
+                                    <h3 class="font-semibold text-gray-900 mb-1">${tone.label}</h3>
+                                    <p class="text-sm text-gray-600">${tone.description}</p>
+                                </button>
+                            `).join('')}
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Find Rep -->
+                    <div>
+                        <h2 class="text-xl font-semibold text-gray-800 mb-4">Step 3: Find Your Representatives</h2>
+                        <div class="flex gap-2">
+                            <input type="text" id="zipInput" placeholder="Enter your ZIP code (e.g., 55417)"
+                                class="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                                onkeypress="if(event.key === 'Enter') lookupRep()">
+                            <button onclick="lookupRep()" id="lookupBtn"
+                                class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:bg-gray-400 transition-colors">
+                                Find Reps
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Rep Info Display -->
+                    <div id="repInfoContainer" class="hidden">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-4">Your Representatives</h3>
+                        <p class="text-sm text-gray-600 mb-4">
+                            📝 <strong>Note:</strong> You cannot email representatives directly. You must use their official contact form on their website. Click a representative below to generate a personalized message, then click "Contact via Website" to submit it through their form.
+                        </p>
+                        <div id="repsGrid" class="grid gap-4 sm:grid-cols-3"></div>
+                    </div>
+
+                    <!-- Email Template -->
+                    <div id="templateContainer" class="hidden bg-green-50 border border-green-200 rounded-lg p-6">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-lg font-semibold text-gray-900">Your Email Template</h3>
+                            <button onclick="copyTemplate()" id="copyBtn"
+                                class="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">
+                                📋 Copy Template
+                            </button>
+                        </div>
+
+                        <div class="mb-4 space-y-3">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
+                                <input type="text" id="userName" placeholder="John Smith"
+                                    onkeyup="updateTemplate()"
+                                    class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-1">Your Address</label>
+                                <input type="text" id="userAddress" placeholder="123 Main St, Minneapolis, MN 55401"
+                                    onkeyup="updateTemplate()"
+                                    class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <p class="text-sm font-medium text-gray-700 mb-1">Subject:</p>
+                            <p id="emailSubject" class="text-sm bg-white p-2 rounded border border-gray-300"></p>
+                        </div>
+
+                        <div>
+                            <p class="text-sm font-medium text-gray-700 mb-1">Body:</p>
+                            <pre id="emailBody" class="text-sm bg-white p-4 rounded border border-gray-300 whitespace-pre-wrap font-sans"></pre>
+                        </div>
+
+                        <p class="text-xs text-gray-600 mt-4" id="templateNote"></p>
+                    </div>
+                </div>
+            `;
+        }
+
+        // ── Content Block Toggle ───────────────────────────────
+        function toggleBlock(blockId, checked) {
+            selectedBlocks[blockId] = checked;
+            updateTemplate();
+        }
+
+        // ── Tone Selection ─────────────────────────────────────
+        function selectTone(toneId) {
+            selectedTone = toneId;
+
+            currentIssue.tones.forEach(tone => {
+                const btn = document.getElementById(`btn-${tone.id}`);
+                if (!btn) return;
+                if (tone.id === toneId) {
+                    btn.className = 'p-4 rounded-lg border-2 transition-all border-blue-500 bg-blue-50 shadow-md text-left';
                 } else {
-                    btn.className = 'p-4 rounded-lg border-2 border-gray-200 hover:border-blue-300 transition-all';
+                    btn.className = `p-4 rounded-lg border-2 border-gray-200 hover:border-${tone.color}-300 transition-all text-left`;
                 }
             });
 
             updateTemplate();
         }
 
+        // ── Template Composition Engine ────────────────────────
+        function composeEmail(tone, repName, userName, userAddress) {
+            // Gather selected block fragments
+            const fragments = currentIssue.contentBlocks
+                .filter(block => selectedBlocks[block.id])
+                .map(block => block.templateFragment);
+
+            const blocksText = fragments.join(' ');
+
+            // Build intro with selected blocks inserted
+            let intro = tone.intro.replace('{selected_blocks}', blocksText);
+
+            // Build asks list
+            const asks = tone.asks.map(ask => `- ${ask}`).join('\n');
+
+            // Compose full email
+            const email = `Dear ${repName},\n\n${intro}\n${asks}\n\n${tone.closing}\n\nSincerely,\n${userName}\n${userAddress}`;
+
+            return email;
+        }
+
+        function updateTemplate() {
+            if (!currentIssue || !selectedTone) {
+                const container = document.getElementById('templateContainer');
+                if (container) container.classList.add('hidden');
+                return;
+            }
+
+            const tone = currentIssue.tones.find(t => t.id === selectedTone);
+            if (!tone) return;
+
+            const container = document.getElementById('templateContainer');
+            container.classList.remove('hidden');
+
+            const repName = selectedRep ? selectedRep.name : '[Representative Name]';
+            const userName = document.getElementById('userName')?.value || '[Your Name]';
+            const userAddress = document.getElementById('userAddress')?.value || '[Your Address]';
+
+            document.getElementById('emailSubject').textContent = tone.subject;
+            document.getElementById('emailBody').textContent = composeEmail(tone, repName, userName, userAddress);
+
+            const hasRep = selectedRep !== null;
+            const hasName = userName !== '[Your Name]';
+            const hasAddress = userAddress !== '[Your Address]';
+            const allFilled = hasRep && hasName && hasAddress;
+
+            let note = '';
+            if (!hasRep) {
+                note = 'Find your representatives above and select one to personalize this template.';
+            } else {
+                note = `This template is for ${selectedRep.name}. `;
+                if (allFilled) {
+                    note += 'Your message is ready! Copy it and paste into their contact form.';
+                } else {
+                    note += 'Fill in your name and address above to complete the template.';
+                }
+            }
+            document.getElementById('templateNote').textContent = note;
+            document.getElementById('copyBtn').style.display = 'flex';
+        }
+
+        // ── Rep Lookup (issue-agnostic) ────────────────────────
         async function lookupRep() {
             const zipInput = document.getElementById('zipInput').value.trim();
-            console.log('Looking up reps for ZIP:', zipInput);
-
-            if (!zipInput) {
-                alert('Please enter a ZIP code');
-                return;
-            }
+            if (!zipInput) { alert('Please enter a ZIP code'); return; }
 
             const zipMatch = zipInput.match(/\b\d{5}\b/);
-            if (!zipMatch) {
-                alert('Please include a 5-digit ZIP code');
-                return;
-            }
+            if (!zipMatch) { alert('Please include a 5-digit ZIP code'); return; }
             const zipCode = zipMatch[0];
 
             const lookupBtn = document.getElementById('lookupBtn');
@@ -307,15 +415,12 @@ Sincerely,
             try {
                 const proxyUrl = 'https://corsproxy.io/?';
                 const apiUrl = `https://whoismyrepresentative.com/getall_mems.php?zip=${zipCode}&output=json`;
-                
-                console.log('Fetching:', proxyUrl + encodeURIComponent(apiUrl));
+
                 const response = await fetch(proxyUrl + encodeURIComponent(apiUrl));
                 const data = await response.json();
-                console.log('API Response:', data);
-                
+
                 if (data.results && data.results.length > 0) {
                     allReps = data.results.map(rep => {
-                        // Determine if House or Senate based on district field
                         const isHouse = rep.district && rep.district !== '';
                         return {
                             name: rep.name,
@@ -328,14 +433,8 @@ Sincerely,
                             link: rep.link
                         };
                     });
-                    
-                    console.log('All Reps:', allReps);
-                    
-                    // Auto-select first rep (House rep)
-                    if (allReps.length > 0) {
-                        selectedRep = allReps[0];
-                    }
-                    
+
+                    if (allReps.length > 0) selectedRep = allReps[0];
                     displayRepInfo();
                     updateTemplate();
                 } else {
@@ -343,7 +442,7 @@ Sincerely,
                 }
             } catch (error) {
                 console.error('Error looking up representatives:', error);
-                alert('Error looking up representatives. Please check your ZIP code and try again. Check the browser console for details.');
+                alert('Error looking up representatives. Please check your ZIP code and try again.');
             }
 
             lookupBtn.disabled = false;
@@ -352,11 +451,12 @@ Sincerely,
 
         function displayRepInfo() {
             const container = document.getElementById('repInfoContainer');
+            if (!container) return;
             container.classList.remove('hidden');
 
             const grid = document.getElementById('repsGrid');
             grid.innerHTML = '';
-            
+
             allReps.forEach((rep, index) => {
                 const card = document.createElement('div');
                 const isSelected = selectedRep && selectedRep.name === rep.name;
@@ -368,11 +468,11 @@ Sincerely,
                     <p class="text-gray-600 text-sm">${rep.party}</p>
                     ${rep.phone ? `<p class="text-gray-600 text-sm mt-2">📞 ${rep.phone}</p>` : ''}
                     ${rep.link ? `<p class="text-xs text-blue-600 mt-3">
-                        <a href="${rep.link}" 
-                           target="_blank" rel="noopener noreferrer" 
+                        <a href="${rep.link}"
+                           target="_blank" rel="noopener noreferrer"
                            class="hover:underline"
                            onclick="event.stopPropagation()">
-                            Contact via Website →
+                            Contact via Website &rarr;
                         </a>
                     </p>` : ''}
                     ${isSelected ? '<p class="text-xs text-blue-600 font-semibold mt-2">✓ Selected</p>' : ''}
@@ -382,113 +482,83 @@ Sincerely,
         }
 
         function selectRep(index) {
-            console.log('Selecting rep:', allReps[index]);
             selectedRep = allReps[index];
-            displayRepInfo(); // Re-render to show selection
+            displayRepInfo();
             updateTemplate();
         }
 
-        function updateTemplate() {
-            if (!selectedTone || !selectedRep) {
-                if (selectedTone && allReps.length > 0) {
-                    // Show message to select a rep
-                    document.getElementById('templateContainer').classList.remove('hidden');
-                    document.getElementById('emailSubject').textContent = EmailTemplates[selectedTone].subject;
-                    document.getElementById('emailBody').textContent = EmailTemplates[selectedTone].body;
-                    document.getElementById('templateNote').textContent = "Click on a representative above to personalize this template.";
-                    document.getElementById('copyBtn').style.display = 'none';
-                } else {
-                    document.getElementById('templateContainer').classList.add('hidden');
-                }
-                return;
-            }
-
-            const container = document.getElementById('templateContainer');
-            container.classList.remove('hidden');
-
-            const template = EmailTemplates[selectedTone];
-            document.getElementById('emailSubject').textContent = template.subject;
-            
-            // Get user input values
-            const userName = document.getElementById('userName')?.value || '[Your Name]';
-            const userAddress = document.getElementById('userAddress')?.value || '[Your Address]';
-            
-            // Replace all placeholders
-            let body = template.body
-                .replace('[Representative Name]', selectedRep.name)
-                .replace('[Your Name]', userName)
-                .replace('[Your Address]', userAddress);
-            
-            document.getElementById('emailBody').textContent = body;
-
-            // Update note based on whether fields are filled
-            const hasName = userName !== '[Your Name]';
-            const hasAddress = userAddress !== '[Your Address]';
-            const allFilled = hasName && hasAddress;
-            
-            let note = `This template is for ${selectedRep.name}. `;
-            if (allFilled) {
-                note += "Your message is ready! Copy it and paste into their contact form.";
-            } else {
-                note += "Fill in your name and address above to complete the template, then copy and paste it into their contact form.";
-            }
-            document.getElementById('templateNote').textContent = note;
-
-            document.getElementById('copyBtn').style.display = 'flex';
-        }
-
+        // ── Copy Template ──────────────────────────────────────
         async function copyTemplate() {
             const body = document.getElementById('emailBody').textContent;
-            
             try {
                 await navigator.clipboard.writeText(body);
                 const btn = document.getElementById('copyBtn');
                 btn.textContent = '✅ Copied!';
-                setTimeout(() => {
-                    btn.textContent = '📋 Copy Template';
-                }, 2000);
+                setTimeout(() => { btn.textContent = '📋 Copy Template'; }, 2000);
             } catch (err) {
                 console.error('Failed to copy:', err);
                 alert('Failed to copy to clipboard. Please copy manually.');
             }
         }
 
-        console.log('Operation Defrost loaded. Debug mode enabled.');
+        // ── Dynamic Meta Tags ──────────────────────────────────
+        function updateMeta(meta) {
+            document.title = meta.ogTitle || 'Operation Defrost - Contact Your Representatives';
+            const url = window.location.href;
+            const setContent = (id, value) => {
+                const el = document.getElementById(id);
+                if (el) el.setAttribute('content', value);
+            };
+            setContent('meta-og-title', meta.ogTitle || '');
+            setContent('meta-og-description', meta.ogDescription || '');
+            setContent('meta-og-image', meta.ogImage || '');
+            setContent('meta-og-url', url);
+            setContent('meta-tw-title', meta.ogTitle || '');
+            setContent('meta-tw-description', meta.ogDescription || '');
+            setContent('meta-tw-image', meta.ogImage || '');
+            setContent('meta-tw-url', url);
+        }
 
-        // Social sharing functions
+        // ── Social Sharing ─────────────────────────────────────
+        function getShareText() {
+            if (currentIssue && currentIssue.meta && currentIssue.meta.shareText) {
+                return currentIssue.meta.shareText;
+            }
+            return 'Contact your representatives using Operation Defrost';
+        }
+
+        function getShareUrl() {
+            return window.location.href;
+        }
+
         function shareOnTwitter() {
-            const text = "Contact your representatives about ICE operations in Minneapolis using Operation Defrost";
-            const url = "https://pete2786.github.io/operation-defrost/";
-            window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
+            window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(getShareText())}&url=${encodeURIComponent(getShareUrl())}`, '_blank');
         }
 
         function shareOnFacebook() {
-            const url = "https://pete2786.github.io/operation-defrost/";
-            window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+            window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(getShareUrl())}`, '_blank');
         }
 
         function shareOnInstagram() {
-            const url = "https://pete2786.github.io/operation-defrost/";
-            const message = "Operation Defrost - Contact your representatives about ICE operations in Minneapolis\n\n" + url;
-            
-            // Copy to clipboard first
+            const message = getShareText() + '\n\n' + getShareUrl();
             navigator.clipboard.writeText(message).then(() => {
-                alert('✅ Link and message copied to clipboard!\n\nTo share on Instagram:\n1. Open Instagram app\n2. Create a new Story\n3. Add text or a background\n4. Paste the link (it will auto-add a link sticker)\n5. Share!');
+                alert('✅ Link and message copied to clipboard!\n\nTo share on Instagram:\n1. Open Instagram app\n2. Create a new Story\n3. Add text or a background\n4. Paste the link\n5. Share!');
             }).catch(() => {
-                alert('Instagram doesn\'t support direct web sharing.\n\nTo share:\n1. Copy this link: ' + url + '\n2. Open Instagram app\n3. Create a Story and paste the link');
+                alert('To share on Instagram:\n1. Copy this link: ' + getShareUrl() + '\n2. Open Instagram app\n3. Create a Story and paste the link');
             });
         }
 
         async function copyLink() {
-            const url = "https://pete2786.github.io/operation-defrost/";
             try {
-                await navigator.clipboard.writeText(url);
+                await navigator.clipboard.writeText(getShareUrl());
                 alert('Link copied to clipboard!');
             } catch (err) {
-                console.error('Failed to copy link:', err);
-                alert('Failed to copy link. Please copy manually: ' + url);
+                alert('Failed to copy link. Please copy manually: ' + getShareUrl());
             }
         }
+
+        // ── Init ───────────────────────────────────────────────
+        navigate();
     </script>
 </body>
 </html>

@@ -1,0 +1,94 @@
+{
+  "id": "ice-minneapolis-2025",
+  "title": "ICE Operations in Minneapolis",
+  "subtitle": "Contact your representatives about federal enforcement accountability",
+  "urgentBanner": {
+    "date": "January 25th, 2025",
+    "text": "The Senate is voting on a government funding package that requires 60 votes to pass. Key Democrats have pledged to vote against DHS funding unless restrictions are placed on immigration enforcement operations. <strong>Contact your Senators NOW</strong> — they have the power to demand accountability through the budget process."
+  },
+  "contentBlocks": [
+    {
+      "id": "incident-macklin-good",
+      "label": "Renee Macklin Good shooting (Jan 7)",
+      "category": "incident",
+      "defaultSelected": true,
+      "contextText": "On January 7th, 2025, ICE agent Jonathan Ross shot and killed Renee Macklin Good in Minneapolis.",
+      "templateFragment": "On January 7th, ICE agent Jonathan Ross shot and killed Renee Macklin Good."
+    },
+    {
+      "id": "incident-pretti",
+      "label": "Alex Pretti shooting (Jan 25)",
+      "category": "incident",
+      "defaultSelected": true,
+      "contextText": "On January 25th, a federal agent shot and killed Alex Pretti, a 37-year-old ICU nurse, in Minneapolis' Whittier neighborhood. This is the second fatal shooting by federal agents in Minnesota in less than three weeks.",
+      "templateFragment": "On January 25th, a federal agent shot and killed Alex Pretti, a 37-year-old ICU nurse."
+    },
+    {
+      "id": "school-pursuit",
+      "label": "Roosevelt High School vehicle pursuit",
+      "category": "incident",
+      "defaultSelected": true,
+      "contextText": "A vehicle pursuit ended in front of Roosevelt High School with approximately 15 students and staff present, resulting in arrests.",
+      "templateFragment": "A vehicle pursuit ended in front of Roosevelt High School with students and staff present."
+    },
+    {
+      "id": "protests-mischaracterized",
+      "label": "Peaceful protests mischaracterized as riots",
+      "category": "context",
+      "defaultSelected": true,
+      "contextText": "Thousands of Minnesotans have peacefully protested these actions, with over 100 organizations calling for accountability. Despite peaceful protests, federal officials have falsely characterized these gatherings as riots.",
+      "templateFragment": "Meanwhile, thousands of Minnesotans have peacefully protested these actions, yet federal officials falsely characterize these gatherings as riots."
+    }
+  ],
+  "tones": [
+    {
+      "id": "democrat",
+      "label": "Democrat Rep",
+      "description": "Strong support, moral urgency",
+      "color": "blue",
+      "subject": "URGENT: Vote NO on DHS Funding - Demand Accountability for Minnesota Deaths",
+      "intro": "I am writing you today about the fatal shootings by federal agents in Minneapolis. {selected_blocks}\n\nThe Senate is voting on a government funding package RIGHT NOW. I urge you to vote NO on DHS funding unless strict restrictions are placed on these dangerous enforcement operations. Join your Democratic colleagues who have pledged to block this funding without accountability measures.\n\nUse your power in the budget process to demand:",
+      "asks": [
+        "Immediate cessation of these operations",
+        "Prosecution of the agents responsible for these deaths",
+        "Congressional investigation into DHS enforcement practices"
+      ],
+      "closing": "Our communities deserve safety and dignity, not fear and violence.\n\nThank you for your leadership on this critical issue."
+    },
+    {
+      "id": "moderate",
+      "label": "Moderate Republican",
+      "description": "Balanced, focus on judgment",
+      "color": "purple",
+      "subject": "Vote Against DHS Funding Without Enforcement Restrictions",
+      "intro": "I am writing to you as a constituent deeply concerned about federal enforcement operations in Minneapolis. Regardless of one's views on immigration policy, I believe we can agree that recent events represent a serious breakdown in operational judgment.\n\n{selected_blocks}\n\nThe Senate is currently voting on a government funding package. I respectfully urge you to support your colleagues who are demanding restrictions on enforcement operations before approving DHS funding. This is not about blocking immigration enforcement — it's about ensuring it's conducted safely and with proper oversight.\n\nYou have a concrete opportunity right now to:",
+      "asks": [
+        "Demand operational review and new protocols",
+        "Tie funding to community safety standards",
+        "Require transparency and accountability"
+      ],
+      "closing": "Effective enforcement must balance security with community trust and basic human dignity.\n\nThank you for considering my concerns."
+    },
+    {
+      "id": "farRight",
+      "label": "Far Right Rep",
+      "description": "Emphasis on protocols, stability",
+      "color": "red",
+      "subject": "Request DHS Funding Restrictions to Ensure Operational Standards",
+      "intro": "I am writing regarding federal enforcement operations in Minneapolis. While I understand the importance of immigration enforcement, recent events merit serious review of operational protocols.\n\n{selected_blocks}\n\nThe Senate is voting on a government funding package. I ask that you support efforts to ensure DHS funding includes clear operational restrictions. This is about maintaining professional standards and community stability, not blocking enforcement.\n\nStrong enforcement requires:",
+      "asks": [
+        "Clear protocols that protect both officers and community members",
+        "Proper use of force standards",
+        "Transparency and accountability mechanisms",
+        "Operations that don't escalate near schools or create unnecessary conflict"
+      ],
+      "closing": "Effective enforcement achieves its goals while maintaining public trust and order.\n\nThank you for your attention to this matter."
+    }
+  ],
+  "meta": {
+    "ogTitle": "Operation Defrost - ICE Operations in Minneapolis",
+    "ogDescription": "Contact your federal representatives about ICE operations in Minneapolis. Generate personalized messages and find your reps by ZIP code.",
+    "ogImage": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=1200&h=630&fit=crop",
+    "shareText": "Contact your representatives about ICE operations in Minneapolis using Operation Defrost"
+  }
+}

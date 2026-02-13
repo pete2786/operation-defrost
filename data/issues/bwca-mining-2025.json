@@ -1,0 +1,112 @@
+{
+  "id": "bwca-mining-2025",
+  "title": "Protect the Boundary Waters from Mining",
+  "subtitle": "Stop Congress from lifting the mining ban near America's most pristine wilderness",
+  "urgentBanner": {
+    "date": "February 2026",
+    "text": "The Senate is expected to vote THIS WEEK on a resolution to lift the 20-year mining ban near the Boundary Waters. The House already passed it last month. <strong>Contact your Senators NOW</strong> before the vote happens."
+  },
+  "contentBlocks": [
+    {
+      "id": "ban-lifted",
+      "label": "Congress moving to lift 20-year mining ban",
+      "category": "legislation",
+      "defaultSelected": true,
+      "contextText": "Congressional Republicans passed a House resolution to end the 20-year moratorium on mining near the Boundary Waters Canoe Area Wilderness. The Senate is expected to vote on it this week.",
+      "templateFragment": "Congress is moving to lift the 20-year ban on mining near Minnesota's Boundary Waters Canoe Area Wilderness. The House has already passed a resolution to end the moratorium, and the Senate is expected to vote this week."
+    },
+    {
+      "id": "copper-nickel-risk",
+      "label": "Copper-nickel sulfide mining has never been done safely",
+      "category": "environment",
+      "defaultSelected": true,
+      "contextText": "Environmental experts warn that copper-nickel sulfide mining has never been done without contaminating surrounding waterways. The proposed mine site is water-rich, meaning contaminated runoff would flow directly into the Boundary Waters.",
+      "templateFragment": "Copper-nickel sulfide mining has never been done without contaminating surrounding waterways. The proposed mine site is water-rich, meaning contaminated runoff would flow directly into the Boundary Waters."
+    },
+    {
+      "id": "pristine-wilderness",
+      "label": "BWCA is irreplaceable wilderness",
+      "category": "environment",
+      "defaultSelected": true,
+      "contextText": "The Boundary Waters Canoe Area Wilderness is one of the most pristine ecosystems in the United States — over a million acres of interconnected lakes, rivers, and forests in Northeastern Minnesota visited by over 150,000 people annually.",
+      "templateFragment": "The Boundary Waters is one of the most pristine wilderness areas in the United States — over a million acres of interconnected waterways that, once contaminated, cannot be restored."
+    },
+    {
+      "id": "foreign-owned",
+      "label": "Twin Metals is Chilean-owned",
+      "category": "economics",
+      "defaultSelected": true,
+      "contextText": "The company proposing the mine, Twin Metals Minnesota, is owned by the Chilean mining conglomerate Antofagasta. Profits from extracting American natural resources would flow to foreign shareholders.",
+      "templateFragment": "The company proposing this mine, Twin Metals Minnesota, is owned by Chilean mining conglomerate Antofagasta — meaning profits from extracting American natural resources would flow to foreign shareholders."
+    },
+    {
+      "id": "tourism-economy",
+      "label": "Mining threatens the tourism economy",
+      "category": "economics",
+      "defaultSelected": false,
+      "contextText": "The Boundary Waters region supports a robust tourism and recreation economy. Contamination from mining would threaten the livelihoods of outfitters, guides, and local businesses that depend on the wilderness being pristine.",
+      "templateFragment": "The Boundary Waters supports a thriving tourism and recreation economy. Mining contamination would threaten the livelihoods of outfitters, guides, and local businesses that depend on clean water and pristine wilderness."
+    },
+    {
+      "id": "jobs-claim",
+      "label": "Job creation claims vs. long-term risk",
+      "category": "economics",
+      "defaultSelected": false,
+      "contextText": "Proponents claim the mine would create hundreds of jobs, but these temporary positions must be weighed against the permanent risk to an ecosystem and tourism economy that sustains the region indefinitely.",
+      "templateFragment": "While proponents claim the mine would create hundreds of jobs, these temporary positions must be weighed against permanent risk to an ecosystem and tourism economy that sustains the region indefinitely."
+    }
+  ],
+  "tones": [
+    {
+      "id": "conservation",
+      "label": "Conservation",
+      "description": "Protect wilderness, environmental stewardship",
+      "color": "green",
+      "subject": "Vote NO on Lifting the Boundary Waters Mining Ban",
+      "intro": "I am writing to urge you to vote against the resolution to lift the mining ban near Minnesota's Boundary Waters Canoe Area Wilderness. This is one of the most important environmental votes of this Congress.\n\n{selected_blocks}\n\nWe have a responsibility to be stewards of our natural heritage. Once contaminated, the Boundary Waters cannot be uncontaminated. I urge you to:",
+      "asks": [
+        "Vote NO on the resolution to lift the 20-year mining moratorium",
+        "Support permanent protections for the Boundary Waters watershed",
+        "Oppose any fast-tracking of mining permits in ecologically sensitive areas",
+        "Demand independent environmental impact assessments before any mining is considered"
+      ],
+      "closing": "The Boundary Waters is a national treasure that belongs to all Americans, not to a foreign mining company. Once destroyed, no amount of money can bring it back.\n\nThank you for standing up for our wilderness."
+    },
+    {
+      "id": "economic",
+      "label": "Economic",
+      "description": "Tourism jobs, long-term value, cost-benefit",
+      "color": "blue",
+      "subject": "Protect the Boundary Waters Economy - Vote Against the Mining Resolution",
+      "intro": "I am writing about the resolution to lift the mining ban near the Boundary Waters. While I understand the appeal of job creation, I urge you to consider the full economic picture before voting.\n\n{selected_blocks}\n\nThe math here does not add up. Temporary mining jobs for a foreign-owned company do not justify permanent risk to a wilderness that drives sustainable economic activity year after year. I ask you to:",
+      "asks": [
+        "Vote NO on the mining ban resolution",
+        "Commission an independent cost-benefit analysis comparing mining revenue to tourism and recreation losses",
+        "Ensure any mining proposals undergo full economic impact review including effects on existing businesses",
+        "Protect the long-term economic interests of Northeastern Minnesota communities"
+      ],
+      "closing": "Smart economic policy protects assets that generate value indefinitely. The Boundary Waters is one of Minnesota's most valuable economic assets — and it doesn't require a single dollar of public investment to keep producing returns.\n\nThank you for considering the full economic picture."
+    },
+    {
+      "id": "sovereignty",
+      "label": "America First",
+      "description": "Foreign ownership, resource sovereignty",
+      "color": "red",
+      "subject": "Don't Hand American Wilderness to a Chilean Mining Company",
+      "intro": "I am writing about the resolution to lift the mining ban near the Boundary Waters. I support American energy and mineral independence, but this proposal does not serve American interests.\n\n{selected_blocks}\n\nThis is not about American jobs or American energy independence. This is about a foreign corporation extracting American resources and sending profits overseas while leaving Americans to deal with the environmental consequences. I urge you to:",
+      "asks": [
+        "Vote NO on the resolution until the foreign ownership issue is resolved",
+        "Require that any mining near American wilderness be conducted by American-owned companies",
+        "Ensure mining profits stay in American communities, not foreign balance sheets",
+        "Protect American natural resources from foreign exploitation"
+      ],
+      "closing": "American wilderness should benefit Americans. If we're going to take on environmental risk, the economic upside should stay here — not flow to Santiago, Chile.\n\nThank you for putting America first."
+    }
+  ],
+  "meta": {
+    "ogTitle": "Operation Defrost - Protect the Boundary Waters from Mining",
+    "ogDescription": "Congress is voting to lift the mining ban near the Boundary Waters. Contact your representatives to protect America's most pristine wilderness.",
+    "ogImage": "https://images.unsplash.com/photo-1439853949127-fa647821eba0?w=1200&h=630&fit=crop",
+    "shareText": "Congress is about to allow mining near the Boundary Waters. Contact your reps using Operation Defrost"
+  }
+}

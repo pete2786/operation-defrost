@@ -15,6 +15,14 @@
       "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=600&h=400&fit=crop",
       "date": "2025-02-13",
       "status": "active"
+    },
+    {
+      "id": "bwca-mining-2025",
+      "title": "Protect the Boundary Waters from Mining",
+      "summary": "Congress is voting to lift a 20-year mining ban near the BWCA. A Chilean-owned company wants to build a copper-nickel mine next to America's most pristine wilderness.",
+      "image": "https://images.unsplash.com/photo-1439853949127-fa647821eba0?w=600&h=400&fit=crop",
+      "date": "2026-02-08",
+      "status": "active"
     }
   ]
 }

@@ -142,6 +142,21 @@
                 }
 
                 app.innerHTML = `
+                    <div class="bg-amber-50 border border-amber-200 rounded-lg p-5 mb-6">
+                        <p class="text-sm text-gray-800 mb-3">
+                            <strong>Operation Defrost</strong> helps you contact your federal representatives about the issues that matter. We provide pre-written email templates tailored to different political perspectives so you can communicate effectively regardless of who represents you.
+                        </p>
+                        <p class="text-sm text-gray-700 font-medium mb-2">How it works:</p>
+                        <ol class="text-sm text-gray-700 space-y-1 list-decimal list-inside">
+                            <li>Pick an issue below</li>
+                            <li>Choose which talking points to include in your message</li>
+                            <li>Select a tone that matches your representative's politics</li>
+                            <li>Enter your ZIP code to find your reps</li>
+                            <li>Copy the generated email and paste it into their contact form</li>
+                        </ol>
+                        <p class="text-xs text-gray-500 mt-3">Everything runs in your browser. No data is collected or stored.</p>
+                    </div>
+
                     <h2 class="text-xl font-semibold text-gray-800 mb-4">Choose an Issue</h2>
                     <div class="grid gap-4 sm:grid-cols-2">
                         ${issues.map(issue => `

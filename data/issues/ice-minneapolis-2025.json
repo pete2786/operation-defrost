@@ -62,6 +62,14 @@
       "defaultSelected": true,
       "contextText": "Children across Minneapolis have been deeply impacted by the metro surge. Students in the Columbia Heights school district have been especially affected, with children afraid to go to school, families pulled apart, and kids left wondering if their parents will come home.",
       "templateFragment": "Children across Minneapolis have been deeply impacted by ICE operations. Students in the Columbia Heights school district have been especially affected — children afraid to go to school, families pulled apart, and kids left wondering if their parents will come home. No enforcement policy is worth traumatizing children."
+    },
+    {
+      "id": "whipple-conditions",
+      "label": "Inhumane conditions at the Whipple federal building",
+      "category": "accountability",
+      "defaultSelected": true,
+      "contextText": "People detained at the Whipple federal building in Minneapolis have been held in inhumane conditions. Congressional visitors and advocates from The Advocates for Human Rights have documented dirty facilities, missing beds, inadequate blankets, minimal food, and extremely cold temperatures. Detainees lacked meaningful access to legal counsel — phones could not reach legal service providers, and handbooks with legal information were available only in English. DHS has denied all allegations, but firsthand accounts from elected officials and court-ordered inspections tell a different story.",
+      "templateFragment": "People detained at the Whipple federal building in Minneapolis have been held in inhumane conditions — dirty facilities, missing beds, inadequate blankets, minimal food, and freezing temperatures. Detainees have been denied meaningful access to legal counsel, with non-functioning phones and legal information available only in English. When members of Congress documented these conditions firsthand, DHS simply denied everything. Denials are not accountability."
     }
   ],
   "tones": [
@@ -77,6 +85,7 @@
         "An end to racial profiling in federal enforcement — no one should be targeted for the color of their skin",
         "Federal reparations for the Minneapolis communities damaged by the metro surge",
         "Legislation requiring ICE to comply with court orders and respect constitutional rights",
+        "Independent oversight of detention conditions at the Whipple building and all federal holding facilities",
         "A congressional investigation into the conduct of the metro surge"
       ],
       "closing": "Ending the operation is not enough. Justice requires accountability, repair, and systemic change so this never happens again.\n\nThank you for your leadership."
@@ -93,6 +102,7 @@
         "Enforceable requirements that ICE comply with court orders and constitutional protections",
         "Policy reforms to prevent racial profiling in federal enforcement operations",
         "A fair process for addressing the damage done to Minneapolis communities",
+        "Independent inspection and enforceable standards for federal detention facilities",
         "Oversight mechanisms with real enforcement authority"
       ],
       "closing": "The rule of law must apply equally to everyone — including federal agents. Accountability after the fact is the minimum we should expect.\n\nThank you for your commitment to oversight and the rule of law."
@@ -109,6 +119,7 @@
         "Strict enforcement of court orders on federal agencies — no agency is above the judiciary",
         "Constitutional protections against unreasonable search and seizure in enforcement operations",
         "An end to blanket enforcement tactics that target people based on appearance rather than evidence",
+        "Enforceable detention standards — no American should be held in conditions that violate basic human dignity",
         "Proper oversight of federal agencies operating in American cities"
       ],
       "closing": "A government powerful enough to ignore court orders and profile citizens without consequence is a government that has too much power. These are not partisan concerns — they are American ones.\n\nThank you for defending the Constitution."

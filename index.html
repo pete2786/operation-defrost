@@ -538,7 +538,9 @@
             const title = meta.ogTitle || 'Operation Defrost - Contact Your Representatives';
             const description = meta.ogDescription || '';
             const image = meta.ogImage || '';
-            const url = window.location.href;
+            const url = currentIssue
+                ? `https://operationdefrost.app/issue/${currentIssue.id}/`
+                : window.location.href;
 
             document.title = title;
 
@@ -573,7 +575,11 @@
         }
 
         function getShareUrl() {
-            return window.location.href;
+            // Use stub path for sharing so crawlers see correct meta tags
+            if (currentIssue) {
+                return `https://operationdefrost.app/issue/${currentIssue.id}/`;
+            }
+            return 'https://operationdefrost.app/';
         }
 
         function shareOnTwitter() {

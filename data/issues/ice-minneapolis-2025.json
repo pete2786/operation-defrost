@@ -128,7 +128,9 @@
   "meta": {
     "ogTitle": "Operation Defrost - ICE Accountability in Minneapolis",
     "ogDescription": "The metro surge is ending but accountability is just beginning. Contact your representatives to demand justice, policy reform, and community reparations.",
-    "ogImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/ANTI_ICE_March_in_Downtown_Minneapolis%2C_January_23_2026_%2855065552667%29.jpg/1200px-ANTI_ICE_March_in_Downtown_Minneapolis%2C_January_23_2026_%2855065552667%29.jpg",
+    "ogImage": "https://operationdefrost.app/images/ice-minneapolis.jpg",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 800,
     "shareText": "The Minneapolis metro surge may be ending, but accountability is just beginning. Contact your reps using Operation Defrost"
   }
 }

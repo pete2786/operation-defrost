@@ -95,7 +95,9 @@
   "meta": {
     "ogTitle": "Operation Defrost - Digital Privacy & Government Surveillance",
     "ogDescription": "Demand GDPR-style privacy protections for Americans. Contact your representatives about government surveillance and digital rights.",
-    "ogImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Data_Security_Breach_%2829723649810%29.jpg/1200px-Data_Security_Breach_%2829723649810%29.jpg",
+    "ogImage": "https://operationdefrost.app/images/data-security.jpg",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 900,
     "shareText": "Americans need GDPR-style privacy protections. Contact your representatives using Operation Defrost"
   }
 }

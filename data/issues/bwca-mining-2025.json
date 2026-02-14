@@ -106,7 +106,9 @@
   "meta": {
     "ogTitle": "Operation Defrost - Protect the Boundary Waters from Mining",
     "ogDescription": "Congress is voting to lift the mining ban near the Boundary Waters. Contact your representatives to protect America's most pristine wilderness.",
-    "ogImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Pose_lake_Minnesota.jpg/1200px-Pose_lake_Minnesota.jpg",
+    "ogImage": "https://operationdefrost.app/images/bwca.jpg",
+    "ogImageWidth": 1200,
+    "ogImageHeight": 900,
     "shareText": "Congress is about to allow mining near the Boundary Waters. Contact your reps using Operation Defrost"
   }
 }

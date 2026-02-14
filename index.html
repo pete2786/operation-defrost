@@ -14,14 +14,16 @@
     <meta property="og:url" id="meta-og-url" content="https://operationdefrost.app/">
     <meta property="og:title" id="meta-og-title" content="Operation Defrost - Contact Your Representatives">
     <meta property="og:description" id="meta-og-description" content="Civic engagement tool to contact your federal representatives about ICE accountability, digital privacy, Boundary Waters mining, and more. Find your reps by ZIP code.">
-    <meta property="og:image" id="meta-og-image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/ANTI_ICE_March_in_Downtown_Minneapolis%2C_January_23_2026_%2855065552667%29.jpg/1200px-ANTI_ICE_March_in_Downtown_Minneapolis%2C_January_23_2026_%2855065552667%29.jpg">
+    <meta property="og:image" id="meta-og-image" content="https://operationdefrost.app/images/ice-minneapolis.jpg">
+    <meta property="og:image:width" id="meta-og-image-width" content="1200">
+    <meta property="og:image:height" id="meta-og-image-height" content="800">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" id="meta-tw-url" content="https://operationdefrost.app/">
     <meta property="twitter:title" id="meta-tw-title" content="Operation Defrost - Contact Your Representatives">
     <meta property="twitter:description" id="meta-tw-description" content="Civic engagement tool to contact your federal representatives about ICE accountability, digital privacy, Boundary Waters mining, and more. Find your reps by ZIP code.">
-    <meta property="twitter:image" id="meta-tw-image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/ANTI_ICE_March_in_Downtown_Minneapolis%2C_January_23_2026_%2855065552667%29.jpg/1200px-ANTI_ICE_March_in_Downtown_Minneapolis%2C_January_23_2026_%2855065552667%29.jpg">
+    <meta property="twitter:image" id="meta-tw-image" content="https://operationdefrost.app/images/ice-minneapolis.jpg">
 
     <!-- Additional Meta -->
     <meta name="keywords" content="contact representatives, civic engagement, political action, email template, ICE accountability, digital privacy, GDPR, Boundary Waters, BWCA mining">
@@ -106,7 +108,9 @@
             updateMeta({
                 ogTitle: 'Operation Defrost - Contact Your Representatives',
                 ogDescription: 'Civic engagement tool to contact your federal representatives about ICE accountability, digital privacy, Boundary Waters mining, and more.',
-                ogImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/ANTI_ICE_March_in_Downtown_Minneapolis%2C_January_23_2026_%2855065552667%29.jpg/1200px-ANTI_ICE_March_in_Downtown_Minneapolis%2C_January_23_2026_%2855065552667%29.jpg'
+                ogImage: 'https://operationdefrost.app/images/ice-minneapolis.jpg',
+                ogImageWidth: 1200,
+                ogImageHeight: 800
             });
 
             try {
@@ -539,6 +543,8 @@
             setContent('meta-og-description', description);
             setContent('meta-og-image', image);
             setContent('meta-og-url', url);
+            if (meta.ogImageWidth) setContent('meta-og-image-width', String(meta.ogImageWidth));
+            if (meta.ogImageHeight) setContent('meta-og-image-height', String(meta.ogImageHeight));
 
             // Twitter
             setContent('meta-tw-title', title);

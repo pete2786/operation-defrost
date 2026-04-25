@@ -1,10 +1,10 @@
 {
   "id": "ice-minneapolis-2025",
   "title": "ICE Accountability in Minneapolis",
-  "subtitle": "The surge may be ending, but accountability is just beginning",
+  "subtitle": "Three months later — still no charges, still no accountability",
   "urgentBanner": {
-    "date": "February 2026",
-    "text": "The federal government is reportedly ending the \"metro surge\" in Minneapolis, but there has been no accountability for the lives lost, the communities harmed, or the constitutional violations committed. <strong>Now is the time to demand action</strong> while this is still in the national spotlight."
+    "date": "April 2026",
+    "text": "Three months after federal agents killed Renee Macklin Good and Alex Pretti, no charges have been filed and no agents have been held accountable. The metro surge ended; the demand for justice has not. <strong>Don't let this fade from memory</strong> — keep the pressure on."
   },
   "contentBlocks": [
     {
@@ -78,8 +78,8 @@
       "label": "Democrat Rep",
       "description": "Strong accountability, justice, community repair",
       "color": "blue",
-      "subject": "The Metro Surge Is Ending — Now Demand Full Accountability",
-      "intro": "I am writing because the federal government's \"metro surge\" in Minneapolis is reportedly ending, but ending an operation is not the same as accountability. Two people are dead. Communities are traumatized. Constitutional rights were violated. The work of justice is just beginning.\n\n{selected_blocks}\n\nEnding the surge without accountability sets a dangerous precedent — that federal agents can kill, profile, and violate rights without consequence. I urge you to use every tool at your disposal to demand:",
+      "subject": "Three Months On — Still No Accountability for the Minneapolis Killings",
+      "intro": "I am writing because three months have passed since the federal \"metro surge\" ended in Minneapolis, and there has been no accountability. Two people are dead. Communities are traumatized. Constitutional rights were violated. No charges have been filed against the agents responsible.\n\n{selected_blocks}\n\nThe news cycle has moved on, but the lack of accountability has not. Letting these cases fade sets a dangerous precedent — that federal agents can kill, profile, and violate rights without consequence. I urge you to use every tool at your disposal to demand:",
       "asks": [
         "Criminal accountability for the agents who killed Renee Macklin Good and Alex Pretti",
         "An end to racial profiling in federal enforcement — no one should be targeted for the color of their skin",
@@ -96,7 +96,7 @@
       "description": "Rule of law, process, oversight",
       "color": "purple",
       "subject": "ICE Must Be Held Accountable for Minneapolis Operations",
-      "intro": "I am writing about the federal enforcement operations in Minneapolis. With the metro surge reportedly ending, I believe now is the appropriate time to conduct a thorough review and ensure accountability for what occurred.\n\n{selected_blocks}\n\nRegardless of one's views on immigration enforcement, we should all agree that federal agents must follow the law, respect court orders, and be held accountable when lives are lost. I respectfully ask you to support:",
+      "intro": "I am writing about the federal enforcement operations in Minneapolis. Three months have passed since the metro surge ended, yet no comprehensive review has occurred and no agents have been charged for the two fatal shootings. The window for proper accountability is closing.\n\n{selected_blocks}\n\nRegardless of one's views on immigration enforcement, we should all agree that federal agents must follow the law, respect court orders, and be held accountable when lives are lost. I respectfully ask you to support:",
       "asks": [
         "An independent review of the metro surge operations and the two fatal shootings",
         "Enforceable requirements that ICE comply with court orders and constitutional protections",
@@ -113,7 +113,7 @@
       "description": "Constitutional rights, limited government, law and order",
       "color": "red",
       "subject": "Federal Agents Must Respect the Constitution and Court Orders",
-      "intro": "I am writing about the federal enforcement operations in Minneapolis. While I support lawful immigration enforcement, what happened during the metro surge raises serious concerns about government overreach and constitutional violations.\n\n{selected_blocks}\n\nConservatives believe in limited government and individual rights. When federal agents ignore court orders, profile citizens by race, and kill people without accountability, that is the definition of government overreach. I ask you to support:",
+      "intro": "I am writing about the federal enforcement operations in Minneapolis. While I support lawful immigration enforcement, what happened during the metro surge raises serious concerns about government overreach and constitutional violations. Three months later, no agents have been charged for the two fatal shootings, and the lack of accountability undermines the rule of law itself.\n\n{selected_blocks}\n\nConservatives believe in limited government and individual rights. When federal agents ignore court orders, profile citizens by race, and kill people without accountability, that is the definition of government overreach. I ask you to support:",
       "asks": [
         "Full accountability for the use of lethal force — including the deaths of Renee Macklin Good and Alex Pretti",
         "Strict enforcement of court orders on federal agencies — no agency is above the judiciary",
@@ -127,10 +127,10 @@
   ],
   "meta": {
     "ogTitle": "Operation Defrost - ICE Accountability in Minneapolis",
-    "ogDescription": "The metro surge is ending but accountability is just beginning. Contact your representatives to demand justice, policy reform, and community reparations.",
+    "ogDescription": "Three months after federal agents killed Renee Macklin Good and Alex Pretti in Minneapolis, no charges have been filed. Contact your representatives to demand justice before this fades from memory.",
     "ogImage": "https://operationdefrost.app/images/ice-minneapolis.jpg",
     "ogImageWidth": 1200,
     "ogImageHeight": 800,
-    "shareText": "The Minneapolis metro surge may be ending, but accountability is just beginning. Contact your reps using Operation Defrost"
+    "shareText": "Three months on, no charges for the federal agents who killed two people in Minneapolis. Contact your reps using Operation Defrost"
   }
 }

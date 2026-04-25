@@ -3,9 +3,9 @@
     {
       "id": "ice-minneapolis-2025",
       "title": "ICE Accountability in Minneapolis",
-      "summary": "The metro surge is ending but accountability is just beginning. Demand justice for Renee and Alex, an end to racial profiling, and community reparations.",
+      "summary": "Three months on, no charges have been filed for the killings of Renee Macklin Good and Alex Pretti. Demand accountability before this fades from memory.",
       "image": "images/ice-minneapolis.jpg",
-      "date": "2026-02-13",
+      "date": "2026-04-25",
       "status": "active"
     },
     {
@@ -22,7 +22,7 @@
       "summary": "Congress is voting to lift a 20-year mining ban near the BWCA. A Chilean-owned company wants to build a copper-nickel mine next to America's most pristine wilderness.",
       "image": "images/bwca.jpg",
       "date": "2026-02-08",
-      "status": "active"
+      "status": "archived"
     }
   ]
 }
